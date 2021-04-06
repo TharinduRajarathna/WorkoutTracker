@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class WorkoutTemplateResource {
 
-//    @Autowired
-//    private DiscoveryClient discoveryClient;
-
     @GetMapping("hello")
     public String sayHello() {
         return "Hello WorkoutTemplate";
