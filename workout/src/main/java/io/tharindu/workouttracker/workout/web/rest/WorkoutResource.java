@@ -10,6 +10,6 @@ public class WorkoutResource {
 
     @GetMapping("hello")
     public String sayHello() {
-        return "Hello";
+        return "Hello Workout";
     }
 }

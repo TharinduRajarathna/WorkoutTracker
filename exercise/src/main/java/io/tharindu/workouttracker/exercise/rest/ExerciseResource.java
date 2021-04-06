@@ -10,6 +10,6 @@ public class ExerciseResource {
 
     @GetMapping("hello")
     public String sayHello() {
-        return "Hello";
+        return "Hello Exercise";
     }
 }
