@@ -8,4 +8,7 @@ logging:
   level:
     com.netflix.eureka: 'OFF'
     com.netflix.discovery: 'OFF'
+spring:
+  application:
+    name:discovery-service
 

@@ -2,4 +2,4 @@ server:
   port: 9093
 spring:
   application:
-    name: Workout Template Service
+    name: workout-template-service
