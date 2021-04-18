@@ -19,7 +19,7 @@ public class ExerciseService {
     }
 
     public Exercise getExerciseById(long id) {
-        return exerciseRepository.findById(id).get();
+        return exerciseRepository.findById(id).orElse(null);
     }
 
     public Exercise updateExercise(Exercise exercise) {
