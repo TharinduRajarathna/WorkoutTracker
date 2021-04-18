@@ -3,3 +3,7 @@ server:
 spring:
   application:
     name: exercise-service
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

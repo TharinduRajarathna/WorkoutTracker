@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "push-ups",
+    "targetMuscleGroups": [
+      "ARMS",
+      "SHOULDERS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "biceps curls",
+    "targetMuscleGroups": [
+      "ARMS",
+      "SHOULDERS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "shoulder press",
+    "targetMuscleGroups": [
+      "ARMS",
+      "SHOULDERS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "bench dips",
+    "targetMuscleGroups": [
+      "ARMS",
+      "SHOULDERS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "lateral raises",
+    "targetMuscleGroups": [
+      "ARMS",
+      "SHOULDERS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "BARBELl back squats",
+    "targetMuscleGroups": [
+      "LEGS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "DUMBBELL lunges",
+    "targetMuscleGroups": [
+      "LEGS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Romanian deadlifts",
+    "targetMuscleGroups": [
+      "LEGS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "step-ups",
+    "targetMuscleGroups": [
+      "LEGS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "calve raises",
+    "targetMuscleGroups": [
+      "LEGS"
+    ],
+    "categories": [
+      "BARBEL",
+      "DUMBBELL",
+      "REPS_ONLY"
+    ]
+  }
+]
