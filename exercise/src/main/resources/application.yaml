@@ -1,5 +1,9 @@
 server:
   port: 9092
+#### removing the error page
+#  error:
+#    whitelabel:
+#      enabled: off
 spring:
   application:
     name: exercise-service
@@ -7,3 +11,16 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+logging:
+  level:
+    io.tharindu: error
+#customizing actuator endpoints
+management:
+  endpoints:
+    web:
+      base-path: /monitoring
+      path-mapping:
+        info: /information
+      exposure:
+        include: "*"
+        exclude: "env,beans"
