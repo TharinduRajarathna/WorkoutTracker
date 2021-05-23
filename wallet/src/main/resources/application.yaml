@@ -10,8 +10,10 @@ spring:
       ddl-auto: create-drop #update
     database-platform:
   datasource:
+##    In Memory
     url: jdbc:h2:mem:testdb
-    #url: jdbc:h2:file:/data/demo to persist
+    ##    To persist
+    #    url: jdbc:h2:file:/home/tharindu/IdeaProjects/data
     driver-class-name: org.h2.Driver
     password: password
     username: sa

@@ -17,15 +17,15 @@ import java.time.LocalDateTime;
 public class Transaction {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.AUTO)
 
     private long id;
 
     private int value;
 
-    private String from;
+    private String sender;
 
-    private String to;
+    private String receiver;
 
     private LocalDateTime created;
 

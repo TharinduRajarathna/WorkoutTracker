@@ -73,7 +73,12 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${parent.version}</version>
             </plugin>
-            <!-- jacoco test coverage plugin-->
+            <!--
+                Jacoco test coverage plugin
+                * use the jacoco:report goal in order to generate readable code coverage
+                reports in several formats – e.g. HTML, CSV, and XML
+                * Report location : wallet/target/site/jacoco
+                -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
