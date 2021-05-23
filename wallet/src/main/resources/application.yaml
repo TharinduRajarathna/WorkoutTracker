@@ -21,7 +21,7 @@ spring:
       path: /h2-console
       settings:
         trace: false #prevent trace output
-        web-allow-others: false
+        web-allow-others: false # disable remote access
 logging:
   level:
     io.tharindu: error
